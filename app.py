@@ -5,7 +5,7 @@ import datetime
 import time
 
 # --- 1. 頁面設定與 CSS/JS 特效 ---
-st.set_page_config(page_title="Visable Care", page_icon="🏠", layout="centered")
+st.set_page_config(page_title="Visible Care", page_icon="🏠", layout="centered")
 
 st.markdown("""
 <style>
@@ -88,7 +88,7 @@ with st.sidebar:
         st.rerun()
 
 # --- 主畫面 ---
-st.title("🏡 Visable Care")
+st.title("🏡 Visible Care")
 st.caption("讓家務價值被看見，努力都值得被肯定！")
 
 col_score, col_bar = st.columns([1, 2])
